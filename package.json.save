@@ -1,0 +1,17 @@
+{
+  "name": "upandabout",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start -c",
+    "ios": "expo run:ios",
+    "android": "expo run:android",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit",
+    "doctor": "expo doctor",
+    "fix": "expo install",
+    "clean": "rm -rf node_modules package-lock.json && npm cache verify"
+  },
+  "dependencies": {
+    "@

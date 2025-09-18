@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "Up & About",
+    "slug": "upandabout",
+    "version": "0.1.0",
+    "sdkVersion": "53.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.upandabout.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Up & About uses your location to find great events nearby. We never resell your data."
+      }
+    },
+    "android": {
+      "package": "com.upandabout.app",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ]
+    },
+    "plugins": [
+      "expo-location",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "newArchEnabled": true
+          },
+          "android": {
+            "newArchEnabled": true
+          }
+        }
+      ],
+      "expo-asset"
+    ],
+    "updates": {
+      "enabled": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "5b48de64-9f87-4f8b-bcb2-dd1d125a3557"
+      }
+    }
+  }
+}

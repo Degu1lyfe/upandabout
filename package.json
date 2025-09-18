@@ -1,0 +1,42 @@
+{
+  "name": "upandabout",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start -c",
+    "start:prod": "EXPO_PUBLIC_API_BASE=https://upandabout-bvn4xmw6u-dontavius-barneys-projects.vercel.app expo start -c",
+    "start:local": "EXPO_PUBLIC_API_BASE=http://localhost:3000 expo start -c",
+    "ios": "expo run:ios",
+    "android": "expo run:android",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit",
+    "doctor": "expo doctor",
+    "fix": "expo install",
+    "clean": "rm -rf node_modules package-lock.json && npm cache verify"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "@react-navigation/native": "^6.1.16",
+    "@react-navigation/native-stack": "^6.9.26",
+    "expo": "~53.0.0",
+    "expo-asset": "~11.1.7",
+    "expo-build-properties": "~0.14.8",
+    "expo-file-system": "~18.1.11",
+    "expo-linking": "~6.3.1",
+    "expo-location": "~17.0.1",
+    "react": "19.0.0",
+    "react-native": "0.79.1",
+    "react-native-gesture-handler": "~2.24.0",
+    "react-native-reanimated": "~3.17.4",
+    "react-native-safe-area-context": "5.4.0",
+    "react-native-screens": "~4.11.1"
+  },
+  "devDependencies": {
+    "@types/react": "~19.0.10",
+    "@types/react-native": "~0.73.0",
+    "@types/react-test-renderer": "^18.0.7",
+    "eas-cli": "^16.19.3",
+    "typescript": "~5.3.3"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "items": [
+    {
+      "id": "evt_001",
+      "title": "Sunset Jazz on the Bay",
+      "startsAt": "2025-09-17T23:05:12Z",
+      "venue": {
+        "name": "Riverfront",
+        "lat": 27.951,
+        "lon": -82.457
+      },
+      "priceTier": 2,
+      "tags": [
+        "live-music",
+        "nightlife"
+      ],
+      "url": "https://tickets.example.com/evt_001?aff=UPA001"
+    },
+    {
+      "id": "evt_002",
+      "title": "Food Truck Friday",
+      "startsAt": "2025-09-17T23:05:12Z",
+      "venue": {
+        "name": "Central Park",
+        "lat": 27.96,
+        "lon": -82.46
+      },
+      "priceTier": 1,
+      "tags": [
+        "food",
+        "outdoors",
+        "family"
+      ],
+      "url": "https://tickets.example.com/evt_002?aff=UPA001"
+    },
+    {
+      "id": "evt_003",
+      "title": "Museum Late Nights",
+      "startsAt": "2025-09-17T23:05:12Z",
+      "venue": {
+        "name": "City Museum",
+        "lat": 27.955,
+        "lon": -82.445
+      },
+      "priceTier": 3,
+      "tags": [
+        "arts",
+        "nightlife"
+      ],
+      "url": "https://tickets.example.com/evt_003?aff=UPA001"
+    }
+  ]
+}
