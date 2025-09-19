@@ -1,0 +1,47 @@
+
+.DS_Store
+
+app/node_modules
+app/.expo
+app/.expo-shared
+app/ios
+app/android
+app/dist
+app/.env.local
+app/.env.development
+app/.env.production
+
+# From your project root that contains both folders:
+cd ~/Desktop/upandabout
+
+# If .git is currently inside app/, move it up to the root:
+[ -d "app/.git" ] && mv app/.git .
+
+# Set main branch (ok if it already exists)
+git branch -M main
+
+# Add a solid .gitignore at the root
+cat > .gitignore << 'EOF'
+# macOS
+.DS_Store
+
+# Expo / RN
+app/node_modules
+app/.expo
+app/.expo-shared
+app/ios
+app/android
+app/dist
+app/.env.local
+app/.env.development
+app/.env.production
+
+# Vercel / backend
+backend/vercel/node_modules
+backend/vercel/.vercel
+backend/vercel/.env.local
+
+# Logs
+**/npm-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
