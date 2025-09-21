@@ -12,7 +12,7 @@ A minimal, high-signal events app: shows the **Top 3** things near you (tonight 
 - **backend/vercel/** — Serverless `GET /api/events`
   - Curated sample events, seeded shuffle, `?aff=UPA001`
   - Node 20 runtime (`vercel.json`)
-
+Deployed via GitHub Actions on: <today’s date>
 ---
 
 ## Quick start
